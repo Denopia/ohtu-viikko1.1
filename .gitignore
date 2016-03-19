@@ -1,3 +1,6 @@
 *.tmp
 target/*
 /target/
+.classpath
+.project
+.settings/*
