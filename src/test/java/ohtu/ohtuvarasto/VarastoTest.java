@@ -106,7 +106,7 @@ public class VarastoTest {
     public void otaVarastostaLiikaaTavaraa(){
     	varasto.lisaaVarastoon(8);
     	varasto.otaVarastosta(9);
-    	assertEquals(10, varasto.getSaldo(), vertailuTarkkuus);
+    	assertEquals(0, varasto.getSaldo(), vertailuTarkkuus);
     }
     
 }
